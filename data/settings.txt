@@ -1,5 +1,5 @@
 timestamp
-False
+True
 show_zeroes
 True
 show_number_of_plans
