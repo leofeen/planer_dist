@@ -305,3 +305,13 @@
 #confirmationButtonSettings:pressed{
     border-color: #82c3ff;
 }
+
+#planWidget[done = true] #editPlan, #planWidget[done = true] #timestampButtonPlans{
+    color: #5a9cff;
+    text-decoration: line-through #1573ff;
+    border-color: #98c1ff;
+}
+
+#planWidget[done = true] #editPlan:hover, #planWidget[done = true] #timestampButtonPlans:hover{
+    border-color: #7eb2ff;
+}
