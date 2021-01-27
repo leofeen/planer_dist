@@ -315,3 +315,7 @@
 #planWidget[done = true] #editPlan:hover, #planWidget[done = true] #timestampButtonPlans:hover{
     border-color: #7eb2ff;
 }
+
+#centralwidget[custom_background = true]{
+    background: url(./img/custom-background.png) center no-repeat;
+}
