@@ -1,2 +1,4 @@
 enable_custom_background
-True
+False
+full_size_image
+False

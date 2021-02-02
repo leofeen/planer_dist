@@ -11,7 +11,7 @@
 }
 
 #centralwidget{
-    background: rgb(203, 230, 255);
+    background-color: rgb(203, 230, 255);
 }
 
 #pushButton_forward{
@@ -256,12 +256,22 @@
 #settingCheckBox::indicator:checked{
     image: url(./img/soft-theme/check-box-indicator.svg);
 }
+#settingCheckBox::indicator:unchecked:disabled{
+    image: url(./img/soft-theme/check-box-disabled.svg);
+    }
+#settingCheckBox::indicator:checked:disabled{
+    image: url(./img/soft-theme/check-box-indicator-disabled.svg);
+}
 
 #settingText{
     color: #1573ff;
 }
 
 #SettingsWindow{
+    background: #FEF1F1;
+}
+
+#ThemeWindow{
     background: #FEF1F1;
 }
 
@@ -317,5 +327,35 @@
 }
 
 #centralwidget[custom_background = true]{
-    background: url(./img/custom-background.png) center no-repeat;
+    background-image: url(./img/custom-background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#customBackgroundAdd{
+    border: none;
+    background: url(./img/soft-theme/background-download.svg) center no-repeat;
+}
+
+#customBackgroundAdd:hover{
+    background-image: url(./img/soft-theme/background-download-hover.svg);
+}
+
+#customBackgroundAdd:disabled{
+    background-image: url(./img/soft-theme/background-download-disabled.svg);
+}
+
+#settingText:disabled{
+    color: #99c2ff;
+}
+
+#showThemeSettings{
+    background-color: #e9f2fb;
+    color: #3787ff;
+    border: 2px solid #CBE6FF;
+    border-radius: 10px;
+    padding: 1px 5px 1px 5px ;
+}
+#showThemeSettings:hover{
+    border-color: #9fd1ff;
 }
