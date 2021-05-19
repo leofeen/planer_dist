@@ -1,6 +1,10 @@
 timestamp
-True
+False
 show_zeroes
 True
 show_number_of_plans
+True
+eizenhauer
+False
+label
 True

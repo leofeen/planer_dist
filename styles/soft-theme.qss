@@ -10,7 +10,7 @@
     background-image: url(./img/soft-theme/back-arrow-pressed.svg);
 }
 
-#centralwidget{
+#centralWidgetMainWindow{
     background-color: rgb(203, 230, 255);
 }
 
@@ -326,7 +326,7 @@
     border-color: #7eb2ff;
 }
 
-#centralwidget[custom_background = true]{
+#centralWidgetMainWindow[custom_background = true]{
     background-image: url(./img/custom-background.png);
     background-repeat: no-repeat;
     background-position: center;

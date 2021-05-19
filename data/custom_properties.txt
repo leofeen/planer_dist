@@ -1,4 +1,0 @@
-enable_custom_background
-False
-full_size_image
-False
