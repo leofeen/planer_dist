@@ -156,12 +156,16 @@
     background: #fffbfb;
 }
 
-#MainWindowPlans{
+#PlansWindow{
     background: #FEF1F1;
 }
 
 #scrollWidget{
     background: #FEF1F1;
+}
+
+#undistributedPlansBox{
+    border: 1px solid black;
 }
 
 #scrollArea{
@@ -358,4 +362,46 @@
 }
 #showThemeSettings:hover{
     border-color: #9fd1ff;
+}
+
+#Ko_fi{
+    border: none;
+    background: url(./img/Ko-fi.png) center no-repeat;
+}
+
+#planWidget[eizen = true]{
+    border: 1px solid blueviolet;
+    border-radius: 3px;
+}
+
+#planWidget{
+    background-color: #FEF1F1;
+}
+
+#firstEizenPlansBox{
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color: #FEF1F1;
+}
+
+#secondEizenPlansBox{
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color: #FEF1F1;
+}
+
+#thirdEizenPlansBox{
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    background-color: #FEF1F1;
+}
+
+#fourthEizenPlansBox{
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    background-color: #FEF1F1;
+}
+
+#firstEizenPlansBox[drag-over = true], #secondEizenPlansBox[drag-over = true], #thirdEizenPlansBox[drag-over = true], #fourthEizenPlansBox[drag-over = true], #undistributedPlansBox[drag-over = true]{
+    background-color: blanchedalmond;
 }
